@@ -20,8 +20,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         stopRecording.isEnabled = false
-        // Do any additional setup after loading the view, typically from a nib.
-        //Disables the stoprecording button before the screen loads by default
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -44,7 +42,10 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
     @IBAction func recordAudio(_ sender: Any) {
             configureUI(isRecording: true)
-            
+        
+        //Set up the delegate for AVAudioRecorder
+        
+        
             let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true)[0] as String
             let recordingName = "recordedVoice.wav"
             let pathArray = [dirPath, recordingName]
