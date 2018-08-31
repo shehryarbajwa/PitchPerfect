@@ -7,4 +7,6 @@ AVFoundation
 
 ## Screenshots
 
-![0](https://user-images.githubusercontent.com/12707831/44938314-271afd00-ad4c-11e8-9663-29758ec32be8.jpg)
+![0](https://user-images.githubusercontent.com/12707831/44938499-77df2580-ad4d-11e8-9956-c4467dd30ec9.jpg)
+![1](https://user-images.githubusercontent.com/12707831/44938500-77df2580-ad4d-11e8-850e-0af0eb24a36a.jpg)
+![2](https://user-images.githubusercontent.com/12707831/44938501-77df2580-ad4d-11e8-9858-5dd13049d6d2.jpg)
